@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1.blur {
+    font-size: 2rem;
+    color: #2e4e9c;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+    font-weight: bold;
+    text-shadow: 0 0 10px #2e4e9c;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1rem;
+}
+
+input, textarea {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #2e4e9c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3c60e6;
+}
+
+#copy-button {
+    align-self: flex-end;
+    margin-top: 1rem;
+}

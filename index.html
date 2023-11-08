@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blur</title>
+</head>
+<body>
+    <h1 class="blur">Share Your Truth Safely...</h1>
+    <div class="form-container">
+        <form id="story-form">
+            <label for="story">Your Story:</label>
+            <textarea id="story" name="story" required></textarea>
+            
+            <label for="words">Words to Replace:</label>
+            <input id="words" name="words" type="text" required>
+            
+            <label for="symbol">Replacement Symbol (Optional):</label>
+            <input id="symbol" name="symbol" type="text">
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p id="output"></p>
+        <button id="copy-button">Copy</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
